@@ -33,7 +33,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3),var(--cor5),#073d1f);
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor4),#073d1f);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
