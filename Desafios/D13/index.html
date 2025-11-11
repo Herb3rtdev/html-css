@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face{
+            font-family:'Space';
+            src: url(fontes/SPACE.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root{
+            --font-destaque: 'Space';
+        }
+
+
+        body{
+            height: 98vh;
+            background-color: black;
+            background-image: url(imagens/espaco.jpg);
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        body h1{
+            color: rgba(0, 0, 0, 0.761);
+            font-family: var(--font-destaque);
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.496);
+        }
+
+        div#interno{
+             position: absolute;
+            background-image: url(imagens/astronauta.png);
+            min-width: 400px;
+            min-height: 400px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <h1>O Astronauta</h1>
+        <div id="interno">
+
+        </div>
+</body>
+</html>
