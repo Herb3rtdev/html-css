@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@font-face {
+    font-family:'Saiyan-Sans';
+    src: url('../fontes/Saiyan-Sans.ttf') format('truetype');
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 1em;
+
+}
+
+:root{
+    --cor1: #730202;
+    --cor2: #F20519;
+    --cor3: #D98E04;
+    --cor4: #F2CB05;
+    --cor5: #F2E205;
+
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2:'Saiyan-Sans';
+    --fonte3:"Sriracha", cursive;
+}
+
+body{
+
+    background-color: var(--cor1);
+    font-family: var(--fonte1);
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor5),var(--cor3) );
+    text-align: center;
+}
+
+header h1{
+    padding-top: 40px;
+    font-family: var(--fonte2);
+    font-size: 8vw;
+}
+
+header p{
+    padding-bottom: 40px;
+    
+}
+
+main{
+    padding: 10px;
+}
+section{
+ padding: 20px;
+ height: 1400px;
+ width: 450px;
+ background-color: rgba(255, 255, 255, 0.932);
+}
+
+section h2{
+    font-family: var(--fonte2);
+    font-size: 3vw;
+
+}
+
+section pre{
+    font-family: var(--fonte3);
+}
+footer{
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 30px;
+    font-family:var(--fonte2);
+    font-size: 3vw;
+}
+
