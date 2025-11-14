@@ -28,14 +28,21 @@
 
 body{
 
-    background-color: var(--cor1);
+    background-image: linear-gradient(to left, var(--cor5),var(--cor4),var(--cor3) );
     font-family: var(--fonte1);
 }
 
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor5),var(--cor3) );
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     text-align: center;
+}
+
+header div#logo{
+    display: inline-block;
+    background-image: url('../imagens/Dragon_Ball_Z_Logo_A.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
 }
 
 header h1{
@@ -46,22 +53,55 @@ header h1{
 
 header p{
     padding-bottom: 40px;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 30px;
     
 }
 
 main{
     padding: 10px;
+    background-image: linear-gradient(to top, var(--cor1),va(--cor2));
+    background-image: url('../imagens/Dragon_Ball_Z_Logo_A.png');
+    background-repeat: no-repeat;
+    background-position: right center ;
+    background-attachment: fixed;
 }
+
 section{
  padding: 20px;
  height: 1400px;
- width: 450px;
- background-color: rgba(255, 255, 255, 0.932);
+ width: 600px;
+ background-color: var(--cor2);
+}
+
+div#img1{
+    background-image: url('../imagens/goku.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+div#img2{
+    background-image: url('../imagens/vegeta.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+
+}
+
+section#caixa1{
+    border-radius: 10px 10px 0px 0px;
+}
+
+section#caixa2{
+    border-radius: 0px 0px 10px 10px;
+    
 }
 
 section h2{
     font-family: var(--fonte2);
     font-size: 3vw;
+    padding-bottom: 10px;
 
 }
 
@@ -69,7 +109,7 @@ section pre{
     font-family: var(--fonte3);
 }
 footer{
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     text-align: center;
     padding: 30px;
     font-family:var(--fonte2);
