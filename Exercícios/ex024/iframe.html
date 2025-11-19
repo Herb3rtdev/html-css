@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciando os estudos iframes</title>
     <style>
         iframe{
-            width: 600px;
+            width: 400px;
             height: 400px;
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -15,10 +16,18 @@
     <h1>Testando o uso de iframes</h1>
     <p>
         Acessando o site da
-        <iframe src="https://www.bibliaonline.com.br/naa/livros" frameborder="0"></iframe> biblia online
+        <iframe src="https://www.bibliaonline.com.br/naa/livros" frameborder="0">
+
+            <a href="https://www.bibliaonline.com.br/naa/livros" target="_blank">Site da biblia</a>
+
+        </iframe> biblia online
     </p>
     <p>Alguns sites nao há exibicao
-        <iframe src="https://www.google.com.br" frameborder="0"></iframe>
+        <iframe src="https://capriatacursos.com.br/minha-conta/" frameborder="0">
+
+            <a href="https://capriatacursos.com.br/minha-conta/" target="_blank">Curso do Banco do Brasil</a>
+
+        </iframe>
     </p>
 </body>
 </html>
